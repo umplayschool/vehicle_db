@@ -1,0 +1,13 @@
+{
+  "name": "vahan-scraper",
+  "version": "1.0.0",
+  "description": "Cloud-ready script to scrape Vahan dashboard monthly.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
