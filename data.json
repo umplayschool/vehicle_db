@@ -6,45 +6,27 @@
     "total_2w": 800043
   },
   "yearlyTrends": [
-    { "year": "2020", "TwoWheeler": 650000, "Cars": 320000 },
-    { "year": "2021", "TwoWheeler": 680000, "Cars": 340000 },
-    { "year": "2022", "TwoWheeler": 700000, "Cars": 360000 },
-    { "year": "2023", "TwoWheeler": 750000, "Cars": 400000 },
-    { "year": "2024", "TwoWheeler": 800043, "Cars": 450000 }
+    {
+      "year": "2024",
+      "TwoWheeler": 800043,
+      "Cars": 450000
+    }
   ],
   "monthlyTrends_2024": [
-    { "month": "Jan", "EV": 12000, "Petrol": 85000, "Diesel": 25000 },
-    { "month": "Feb", "EV": 15000, "Petrol": 87000, "Diesel": 24000 },
-    { "month": "Mar", "EV": 18000, "Petrol": 90000, "Diesel": 26000 },
-    { "month": "Apr", "EV": 16000, "Petrol": 86000, "Diesel": 23000 },
-    { "month": "May", "EV": 20000, "Petrol": 92000, "Diesel": 24500 },
-    { "month": "Jun", "EV": 25000, "Petrol": 95000, "Diesel": 22000 }
+    {
+      "month": "Jun",
+      "EV": 25000,
+      "Petrol": 95000,
+      "Diesel": 22000
+    }
   ],
   "marketShare": {
-    "TwoWheeler": [
-      { "maker": "HERO MOTOCORP", "value": 350000 },
-      { "maker": "HONDA", "value": 250000 },
-      { "maker": "TVS", "value": 120000 },
-      { "maker": "BAJAJ", "value": 110000 },
-      { "maker": "SUZUKI", "value": 80000 }
-    ],
-    "Cars": [
-      { "maker": "MARUTI SUZUKI", "value": 200000 },
-      { "maker": "HYUNDAI", "value": 90000 },
-      { "maker": "TATA MOTORS", "value": 80000 },
-      { "maker": "MAHINDRA", "value": 50000 },
-      { "maker": "TOYOTA", "value": 30000 }
-    ]
+    "TwoWheeler": [],
+    "Cars": []
   },
   "fuelDistribution": {
-    "TwoWheeler": [
-      { "fuel": "Petrol", "value": 750000 },
-      { "fuel": "EV", "value": 50000 }
-    ],
-    "Cars": [
-      { "fuel": "Petrol", "value": 250000 },
-      { "fuel": "Diesel", "value": 150000 },
-      { "fuel": "EV", "value": 50000 }
-    ]
-  }
+    "TwoWheeler": [],
+    "Cars": []
+  },
+  "lastUpdated": "2026-07-08T21:00:37.223Z"
 }
