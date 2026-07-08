@@ -38,6 +38,15 @@ jobs:
         working-directory: ./scraper
         run: npm start
 
+      - name: Upload Debug Artifacts
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: scraper-debug-files
+          path: |
+            scraper/screenshot.png
+            scraper/page.html
+
       - name: Update Frontend Data
         run: cp ./scraper/vahan_scraped_data.json ./frontend/public/data.json || echo "No new data to copy"
 
